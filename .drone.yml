@@ -1,0 +1,30 @@
+workspace:
+  base: /go
+  path: src/github.com/qjw/git-notify
+
+pipeline:
+  test:
+    image: golang:1.8
+    environment:
+      - GO15VENDOREXPERIMENT=1
+    commands:
+      - make deps gen
+      - make test
+
+  compile:
+    image: golang:1.8
+    environment:
+      - GO15VENDOREXPERIMENT=1
+      - GOPATH=/go
+    commands:
+      - export PATH=$PATH:$GOPATH/bin
+      - make build
+
+  docker:
+    image: plugins/docker
+    username: ${EMAIL}
+    password: ${PASSWORD}
+    email: ${EMAIL}
+    repo: hub.c.163.com/${USERNAME}/test
+    registry: hub.c.163.com
+    tags: latest

@@ -1,0 +1,133 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "9cl7+wv0GvxpQV+HOtV93F9pbmE=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "89742aefa4b206dcf400792f3bd35b542998eb3b",
+			"revisionTime": "2017-08-22T13:27:46Z"
+		},
+		{
+			"checksumSHA1": "a7ps2wsyp72qSKUQeVj4ZbPrOPI=",
+			"path": "github.com/codegangsta/cli",
+			"revision": "ac249472b7de27a9e8990819566d9be95ab5b816",
+			"revisionTime": "2017-09-26T03:41:18Z"
+		},
+		{
+			"checksumSHA1": "pI0js2qnSKXOzUq9AoA5CJDJNRw=",
+			"path": "github.com/go-playground/locales",
+			"revision": "1e5f1161c6416a5ff48840eb8724a394e48cc534",
+			"revisionTime": "2017-03-27T19:14:50Z"
+		},
+		{
+			"checksumSHA1": "YWIa2z/i81ttb1Db9fm95XnIgwI=",
+			"path": "github.com/go-playground/locales/currency",
+			"revision": "1e5f1161c6416a5ff48840eb8724a394e48cc534",
+			"revisionTime": "2017-03-27T19:14:50Z"
+		},
+		{
+			"checksumSHA1": "7QcjNTtW0Rc/5BPw1MPaQ6YNjso=",
+			"path": "github.com/go-playground/universal-translator",
+			"revision": "71201497bace774495daed26a3874fd339e0b538",
+			"revisionTime": "2017-03-27T19:17:03Z"
+		},
+		{
+			"checksumSHA1": "76JH56CPxGxa4OYdueYpKao61ek=",
+			"path": "github.com/ianschenck/envflag",
+			"revision": "9111d830d133f952887a936367fb0211c3134f0d",
+			"revisionTime": "2014-07-20T21:03:42Z"
+		},
+		{
+			"checksumSHA1": "gKyBj05YkfuLFruAyPZ4KV9nFp8=",
+			"path": "github.com/julienschmidt/httprouter",
+			"revision": "975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e",
+			"revisionTime": "2017-04-30T22:20:11Z"
+		},
+		{
+			"checksumSHA1": "a3PxQj+XrvxnZ/pq8VmtZnP2+tE=",
+			"path": "github.com/qjw/go-wx-sdk/cache",
+			"revision": "2a14406d77368d017cd92ff18ad035c9fa3a75ec",
+			"revisionTime": "2017-06-22T04:15:51Z"
+		},
+		{
+			"checksumSHA1": "0co5zNRLIzhnm7oE8aRZTdXIjAU=",
+			"path": "github.com/qjw/go-wx-sdk/corp",
+			"revision": "2a14406d77368d017cd92ff18ad035c9fa3a75ec",
+			"revisionTime": "2017-06-22T04:15:51Z"
+		},
+		{
+			"checksumSHA1": "tEYPmQUnfj6dyqgA7d7XJxZHhRg=",
+			"path": "github.com/qjw/go-wx-sdk/utils",
+			"revision": "2a14406d77368d017cd92ff18ad035c9fa3a75ec",
+			"revisionTime": "2017-06-22T04:15:51Z"
+		},
+		{
+			"checksumSHA1": "b+QbNkALYY+eGG4W57jblqO8dw4=",
+			"path": "github.com/qjw/kelly",
+			"revision": "80661f460debb5fb4f27059054eaa198ea7fc806",
+			"revisionTime": "2017-08-29T09:33:23Z"
+		},
+		{
+			"checksumSHA1": "GXIgLWYUk6wEJM1QwAL9ox1xUb8=",
+			"path": "github.com/qjw/kelly/binding",
+			"revision": "80661f460debb5fb4f27059054eaa198ea7fc806",
+			"revisionTime": "2017-08-29T09:33:23Z"
+		},
+		{
+			"checksumSHA1": "zyKkKGLV0wFX4wQSsFv58uXjSyc=",
+			"path": "github.com/qjw/kelly/render",
+			"revision": "80661f460debb5fb4f27059054eaa198ea7fc806",
+			"revisionTime": "2017-08-29T09:33:23Z"
+		},
+		{
+			"checksumSHA1": "bICiQX5PYTIcHTR5WmB3RFmFI8k=",
+			"path": "github.com/urfave/negroni",
+			"revision": "7d565e6970efbea855b6e9fb37d58f1e05be2fea",
+			"revisionTime": "2017-10-04T23:31:08Z"
+		},
+		{
+			"checksumSHA1": "rGd7RhoqAZXRp682Pg4nE2WFGek=",
+			"path": "gopkg.in/go-playground/validator.v9",
+			"revision": "a021b2ec9a8a8bb970f3f15bc42617cb520e8a64",
+			"revisionTime": "2017-09-07T03:42:43Z"
+		},
+		{
+			"checksumSHA1": "OU/wHTJqhyQfyRnXMVWx1Ox06kQ=",
+			"path": "gopkg.in/redis.v5",
+			"revision": "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0",
+			"revisionTime": "2017-03-04T11:38:25Z"
+		},
+		{
+			"checksumSHA1": "efyYmNqK7vcPhXW4KXfwbdA1wr4=",
+			"path": "gopkg.in/redis.v5/internal",
+			"revision": "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0",
+			"revisionTime": "2017-03-04T11:38:25Z"
+		},
+		{
+			"checksumSHA1": "2Ek4SixeRSKOX3mUiBMs3Aw+Guc=",
+			"path": "gopkg.in/redis.v5/internal/consistenthash",
+			"revision": "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0",
+			"revisionTime": "2017-03-04T11:38:25Z"
+		},
+		{
+			"checksumSHA1": "rJYVKcBrwYUGl7nuuusmZGrt8mY=",
+			"path": "gopkg.in/redis.v5/internal/hashtag",
+			"revision": "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0",
+			"revisionTime": "2017-03-04T11:38:25Z"
+		},
+		{
+			"checksumSHA1": "zsH5BF9qc31R7eEEVYLsjbIigDQ=",
+			"path": "gopkg.in/redis.v5/internal/pool",
+			"revision": "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0",
+			"revisionTime": "2017-03-04T11:38:25Z"
+		},
+		{
+			"checksumSHA1": "EqPdu5g8NhzxQOMCvzbreTQlzVE=",
+			"path": "gopkg.in/redis.v5/internal/proto",
+			"revision": "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0",
+			"revisionTime": "2017-03-04T11:38:25Z"
+		}
+	],
+	"rootPath": "github.com/qjw/git-notify"
+}

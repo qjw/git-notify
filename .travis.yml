@@ -1,0 +1,24 @@
+sudo: required
+language: go
+go:
+ - 1.8
+
+services:
+  - docker
+
+branches:
+  only:
+    - master
+
+install:
+  - make deps gen
+  - make test
+
+script:
+  - make build
+
+after_script:
+  - docker build -t qjw/git-notify .
+  - docker login -u ${EMAIL} -p ${PASSWORD} hub.c.163.com
+  - docker tag qjw/git-notify hub.c.163.com/${USERNAME}/git-notify
+  - docker push hub.c.163.com/${USERNAME}/git-notify
